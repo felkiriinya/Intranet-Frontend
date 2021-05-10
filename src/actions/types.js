@@ -1,0 +1,32 @@
+//authentication
+export const REGISTER_USER = "REGISTER_USER";
+export const LOGIN_USER = "LOGIN_USER";
+export const RESET_USER = "RESET_USER";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const REGISTER_ERROR ="REGISTER_ERROR";
+export const RESET_ERROR = "RESET_ERROR";
+
+//staff types
+export const FETCH_ALL_STAFF = "FETCH_ALL_STAFF";
+export const UPDATE_STAFF = "UPDATE_STAFF";
+export const DELETE_STAFF = "DELETE_STAFF";
+
+//  department types
+export const CREATE_DEPARTMENT = "CREATE_DEPARTMENT";
+export const FETCH_ALL_DEPARTMENT = "FETCH_ALL_DEPARTMENT";
+export const FETCH_DEPARTMENT_PROJECTS = "FETCH_DEPARTMENT_PROJECTS";
+export const FETCH_DEPARTMENT_MEMBERS ="FETCH_DEPARTMENT_MEMBERS";
+
+// project types
+export const CREATE_PROJECT = "CREATE_PROJECT";
+export const FETCH_PROJECT = "FETCH_PROJECT";
+export const FETCH_PROJECT_TASK = "FETCH_PROJECT_TASK";
+export const PROJECT_PROGRESS = "PROJECT_PROGRESS";
+
+
+// task types
+export const CREATE_TASK = "CREATE_TASK";
+export const DELETE_TASK = "DELETE_TASK";
+export const UPDATE_TASK = "UPDATE_TASK";
+export const FETCH_PARTICIPANTS = "FETCH_PARTICIPANTS";
